@@ -9,8 +9,27 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-warning">
-        <h1 class="text-center">FSW Only Bootstap Assignment</h1>
+    <div class="container-fluid bg-warning pt-3 pb-2">
+        <h1 class="text-center">FSW Only Bootstrap Assignment</h1>
         <p  class="text-center">This assignment is about implementing a login and register system.</p>
     </div>
+    <div class="container mt-5">
+        <h2>Please Login to Access this Assignment</h2>
+        <form>
+          <div class="mb-3 mt-3">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your fsw email" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+          </div>
+          <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
 </body>
